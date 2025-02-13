@@ -49,9 +49,9 @@ export const teamMembers = [
     image: assets.teamImg1,
     details: {
       title: "Partner",
-      name: "Rachael Waweru",
+      name: "John Jackson",
       qualifications: "LL.B [Hons] University of Nairobi | Dip. Law [KSL]",
-      expertise: `Ms. Waweru is an Advocate of the High Court of Kenya...`,
+      expertise: `John is an Advocate of the High Court of Kenya...`,
       areasOfPractice: [
         "Conveyancing & Commercial Law",
         "Successfully handled transactions worth USD 1,000,000.",
@@ -63,9 +63,9 @@ export const teamMembers = [
     image: assets.teamImg2,
     details: {
       title: "Partner",
-      name: "Jolline Katama",
+      name: "Michael Johnson",
       qualifications: "LL.B (Hons) | Dip. Law (KSL)",
-      expertise: `Jolline is currently the Managing Partner...`,
+      expertise: `Michael is currently the Managing Partner...`,
       areasOfPractice: [
         "Corporate Governance",
         "Handles contracts, compliance, and governance matters.",
