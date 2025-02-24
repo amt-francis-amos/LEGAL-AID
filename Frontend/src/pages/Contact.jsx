@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="space-y-6">
             {[ 
               { icon: <FaPhone />, label: "Phone", value: "+020 729 156 650" },
-              { icon: <FaEnvelope />, label: "Email", value: "info@scottishlegalaidboard.com" },
+              { icon: <FaEnvelope />, label: "Email", value: "iDeclanManning@workmail.com" },
               { icon: <FaMapMarkerAlt />, label: "Address", value: "Scottish Legal Aid Board Building, 11th Floor, Room 1114, P.O. Box 83106 - 80100, United Kingdom" },
               { icon: <FaClock />, label: "Working Hours", value: "Mon - Fri: 8am - 5pm | Sat - Sun: Closed" }
             ].map((item, index) => (

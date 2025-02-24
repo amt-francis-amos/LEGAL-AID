@@ -39,7 +39,7 @@ const Hero = () => {
           {[
             { icon: <FaPhoneAlt className="text-yellow-400" />, text: "+020 729 156 650" },
             { icon: <FaMapMarkerAlt className="text-yellow-400" />, text: "NSSF Building, 11th Floor, Room 1114, United Kingdom" },
-            { icon: <FaEnvelope className="text-yellow-400" />, text: "info@scottishlegalaidboardbuilding.com" },
+            { icon: <FaEnvelope className="text-yellow-400" />, text: "DeclanManning@workmail.com" },
           ].map((item, index) => (
             <motion.p
               key={index}

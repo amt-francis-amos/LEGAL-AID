@@ -44,7 +44,7 @@ const Footer = () => {
             <p>United Kingdom</p>
             <p className="flex items-center space-x-3">
               <FaEnvelope className="text-yellow-400" />
-              <span>info@scottishlegalaidboard.com</span>
+              <span>DeclanManning@workmail.com</span>
             </p>
           </div>
         </div>
