@@ -18,7 +18,7 @@ const Contact = () => {
         animate={{ scale: 1 }}
         transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
       >
-        {/* Contact Information */}
+        
         <motion.div
           className="bg-white shadow-lg rounded-lg p-8 w-full md:w-1/2"
           initial={{ x: -200, opacity: 0 }}
@@ -32,7 +32,7 @@ const Contact = () => {
             {[ 
               { icon: <FaPhone />, label: "Phone", value: "+020 729 156 650" },
               { icon: <FaEnvelope />, label: "Email", value: "DeclanManning@workmail.com" },
-              { icon: <FaMapMarkerAlt />, label: "Address", value: "Scottish Legal Aid Board Building, 11th Floor, Room 1114, P.O. Box 83106 - 80100, United Kingdom" },
+              // { icon: <FaMapMarkerAlt />, label: "Address", value: "Scottish Legal Aid Board Building, 11th Floor, Room 1114, P.O. Box 83106 - 80100, United Kingdom" },
               { icon: <FaClock />, label: "Working Hours", value: "Mon - Fri: 8am - 5pm | Sat - Sun: Closed" }
             ].map((item, index) => (
               <motion.div
