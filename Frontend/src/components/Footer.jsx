@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope, FaEnvelopeOpen } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -33,17 +33,18 @@ const Footer = () => {
             CONTACT DETAILS
           </h3>
           <div className="text-white space-y-3">
-            <p className="flex items-center space-x-3">
+            {/* <p className="flex items-center space-x-3">
               <FaPhoneAlt className="text-yellow-400" />
               <span>+020 729 156 650</span>
-            </p>
+            </p> */}
             <p className="flex items-center space-x-3">
-              <FaMapMarkerAlt className="text-yellow-400" />
-              <span>NSSF Building, 11th Floor, Room 1114</span>
+             
+              {/* <span>NSSF Building, 11th Floor, Room 1114</span> */}
+              <span>LONDON EC4V 6AB</span> 
             </p>
-            <p>United Kingdom</p>
+           
             <p className="flex items-center space-x-3">
-              <FaEnvelope className="text-yellow-400" />
+             
               <span>DeclanManning@workmail.com</span>
             </p>
           </div>
