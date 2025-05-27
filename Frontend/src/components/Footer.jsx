@@ -40,10 +40,7 @@ const Footer = () => {
               <FaEnvelope className="text-yellow-400" />
               <span>DeclanManning@workmail.com</span>
             </div>
-            <div className="flex items-center space-x-3">
-              <FaPhoneAlt className="text-yellow-400" />
-              <span>+44 1234 567890</span>
-            </div>
+          
           </div>
         </div>
 
