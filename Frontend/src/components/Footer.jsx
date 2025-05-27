@@ -1,4 +1,4 @@
-import React from "react";
+
 import { MapPin, Mail } from "lucide-react";
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-16 scroll-smooth">
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-12">
         
-        {/* About Us */}
+        
         <div className="md:col-span-2">
           <h3 className="text-xl font-semibold mb-2 relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             ABOUT US
@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Services */}
+       
         <div>
           <h3 className="text-xl font-semibold mb-2 relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             SERVICES
@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Details */}
+     
         <div>
           <h3 className="text-xl font-semibold mb-2 relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             CONTACT DETAILS
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
+     
         <div>
           <h3 className="text-xl font-semibold mb-2 relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             QUICK LINKS
@@ -58,7 +58,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Working Hours */}
+        
         <div>
           <h3 className="text-xl font-semibold mb-2 relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             WORKING HOURS
