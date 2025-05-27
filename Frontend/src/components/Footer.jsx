@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-16">
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-10">
         
-        
         <div className="md:col-span-2 space-y-4">
           <h3 className="text-xl font-semibold relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             ABOUT US
@@ -16,7 +15,6 @@ const Footer = () => {
           </p>
         </div>
 
-       
         <div className="space-y-4">
           <h3 className="text-xl font-semibold relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             SERVICES
@@ -29,7 +27,6 @@ const Footer = () => {
           </ul>
         </div>
 
-       
         <div className="space-y-4">
           <h3 className="text-xl font-semibold relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             CONTACT DETAILS
@@ -61,7 +58,6 @@ const Footer = () => {
           </ul>
         </div>
 
-       
         <div className="space-y-4">
           <h3 className="text-xl font-semibold relative pb-2 after:block after:w-16 after:h-1 after:bg-yellow-500 after:mt-1">
             WORKING HOURS
@@ -71,7 +67,6 @@ const Footer = () => {
         </div>
       </div>
 
-    
       <div className="mt-12 pt-6 border-t border-gray-700 text-center text-sm">
         &copy; {new Date().getFullYear()} Scottish Legal Aid Board. All rights reserved.
       </div>
