@@ -37,8 +37,8 @@ const Hero = () => {
        
         <div className="mt-6 space-y-4 text-lg">
           {[
-            { icon: <FaPhoneAlt className="text-yellow-400" />, text: "+020 729 156 650" },
-            { icon: <FaMapMarkerAlt className="text-yellow-400" />, text: "NSSF Building, 11th Floor, Room 1114, United Kingdom" },
+            // { icon: <FaPhoneAlt className="text-yellow-400" />, text: "+020 729 156 650" },
+            { icon: <FaMapMarkerAlt className="text-yellow-400" />, text: "LONDON EC4V 6AB" },
             { icon: <FaEnvelope className="text-yellow-400" />, text: "DeclanManning@workmail.com" },
           ].map((item, index) => (
             <motion.p

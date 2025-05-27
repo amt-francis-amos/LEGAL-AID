@@ -30,7 +30,7 @@ const Contact = () => {
           </h2>
           <div className="space-y-6">
             {[ 
-              { icon: <FaPhone />, label: "Phone", value: "+020 729 156 650" },
+              // { icon: <FaPhone />, label: "Phone", value: "+020 729 156 650" },
               { icon: <FaEnvelope />, label: "Email", value: "DeclanManning@workmail.com" },
               { icon: <FaMapMarkerAlt />, label: "Address", value: "LONDON EC4V 6AB" },
               { icon: <FaClock />, label: "Working Hours", value: "Mon - Fri: 8am - 5pm | Sat - Sun: Closed" }
